@@ -460,3 +460,11 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | #hashtag | hash-tag | Social hashtag |
 | _underscore | un-ders-core | Text with underscore |
 | test_user | test un-ders-core | Username format |
+
+## 🎯 Creative Fixes for Names (Based on Piper quirks)
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| Geis | Ghice | Name pronunciation fix (rhasspy/piper #711) |
+| *test* | star-test-star | Wrap in phonetics to hear asterisk |
+
+> **Tip**: If a phonetic spelling doesn't work, try an alternate spelling that sounds similar. Piper sometimes ignores direct phonetics but responds to creative alternatives.
