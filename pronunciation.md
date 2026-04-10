@@ -82,6 +82,24 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | ngl | not gonna lie | Chat abbreviation |
 | fyi | for your in-for-ma-tion | Chat abbreviation |
 | asap | as soon as pos-si-ble | Fixes "A S A P" |
+| idk | i dont know | Chat abbreviation |
+| imo | in my o-pin-ion | Chat abbreviation |
+| imho | in my hum-ble o-pin-ion | Chat abbreviation |
+| brb | be right back | Chat abbreviation |
+| gtg | got to go | Chat abbreviation |
+| ttyl | talk to you lat-er | Chat abbreviation |
+| ty | thank you | Chat abbreviation |
+| thx | thanks | Chat abbreviation |
+| pls | please | Chat abbreviation |
+| sry | sor-ry | Chat abbreviation |
+| cya | see ya | Chat abbreviation |
+| nvm | nev-er mind | Chat abbreviation |
+| rn | right now | Chat abbreviation |
+| atm | at the mo-ment | Chat abbreviation |
+| smh | sha-king my head | Chat abbreviation |
+| lol | el-oh-el | Laugh out loud |
+| lmao | el-em-ay-oh | Laughing my ass off |
+| rofl | ro-fl | Rolling on floor laughing |
 
 ## 📅 Dates & Numbers (Context-Specific)
 | Pattern | Replacement | Context |
@@ -204,6 +222,135 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | MI5 | M-I-five | UK security service |
 | MI6 | M-I-six | UK intelligence service |
 
+## 🔤 Silent Letter Words
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| know | no | Silent 'k' |
+| knee | nee | Silent 'k' |
+| knife | nife | Silent 'k' |
+| knight | night | Silent 'k' |
+| knock | nok | Silent 'k' |
+| knot | not | Silent 'k' |
+| write | rite | Silent 'w' |
+| wrist | rist | Silent 'w' |
+| wrap | rap | Silent 'w' |
+| wrong | rong | Silent 'w' |
+| wreck | rek | Silent 'w' |
+| answer | an-ser | Silent 'w' |
+| receipt | re-seet | Silent 'p' |
+| island | eye-land | Silent 's' |
+| salmon | sam-un | Silent 'l' |
+| walk | wok | Silent 'l' |
+| talk | tok | Silent 'l' |
+| could | kud | Silent 'l' |
+| would | wud | Silent 'l' |
+| should | shud | Silent 'l' |
+| half | haf | Silent 'l' |
+| calm | kahm | Silent 'l' |
+| palm | pahm | Silent 'l' |
+| psalm | sahhm | Silent 'l' and 'p' |
+| whistle | wis-ul | Silent 't' |
+| listen | lis-un | Silent 't' |
+| castle | kas-ul | Silent 't' |
+| hasten | hay-sun | Silent 't' |
+| soften | sof-un | Silent 't' |
+| mortgage | mor-gij | Silent 't' |
+| often | off-un | Silent 't' (UK) |
+| climb | klyme | Silent 'b' |
+| comb | kome | Silent 'b' |
+| tomb | toom | Silent 'b' |
+| lamb | lam | Silent 'b' |
+| numb | num | Silent 'b' |
+| thumb | thum | Silent 'b' |
+| dumb | dum | Silent 'b' |
+| crumb | crum | Silent 'b' |
+| limb | lim | Silent 'b' |
+| doubt | dowt | Silent 'b' |
+| subtle | sut-ul | Silent 'b' |
+| hour | our | Silent 'h' |
+| honest | on-est | Silent 'h' |
+| honor | on-or | Silent 'h' |
+| heir | air | Silent 'h' |
+| herb | erb | Silent 'h' (US) |
+| ghost | gohst | Silent 'h' |
+| ghoul | gool | Silent 'h' |
+| rhythm | rih-thum | Silent 'h' after 'r' |
+| school | skool | Silent 'h' after 'c' |
+| echo | ek-oh | Silent 'h' |
+| character | kair-ak-ter | Silent 'h' |
+| chaos | kay-os | Silent 'h' |
+| choir | kwy-er | Silent 'h' |
+| chemist | kem-ist | Silent 'h' (English) |
+| Christmas | kris-mus | Silent 'h' |
+| chrome | krome | Silent 'h' |
+| psychology | sy-kol-o-jee | Silent 'p' |
+| pneumonia | nu-moh-nee-a | Silent 'p' |
+| pneumatic | nu-mat-ic | Silent 'p' |
+| autopsey | aw-top-see | Silent 'p' |
+| receipt | re-seet | Silent 'p' |
+| corps | core | Silent 'p' and 's' |
+| coup | koo | Silent 'p' |
+| plaque | plak | Silent 'ue' |
+| bouquet | boo-kay | Silent 't' |
+| debuts | day-byoo | Silent 't' |
+| depot | dep-oh | Silent 't' |
+| ballet | bal-ay | Silent 't' |
+| valet | val-ay | Silent 't' (UK: val-et) |
+| gourmet | gor-may | Silent 't' |
+| rapport | ra-por | Silent 't' |
+| debut | day-byoo | Silent 't' |
+| beret | ber-ay | Silent 't' |
+| buffet | boo-fay | Silent 't' (food) |
+| crochet | crow-shay | Silent 't' |
+| paracetamol | par-a-seet-a-mol | Silent 'c' |
+| muscle | mus-ul | Silent 'c' |
+| scissors | siz-ors | Silent 'c' |
+| scene | seen | Silent 'c' |
+| scent | sent | Silent 'c' |
+| science | sy-uns | Silent 'c' |
+| fascinate | fas-in-ate | Silent 'c' |
+| crescent | kres-unt | Silent 's' |
+| descent | di-sent | Silent 's' |
+| dissolve | di-zolv | Silent 's' |
+| sword | sord | Silent 'w' |
+| answer | an-swer | Silent 'w' |
+| two | too | Silent 'w' |
+| who | hoo | Silent 'w' |
+| whole | hole | Silent 'w' |
+| whom | hoom | Silent 'w' |
+| whose | hooz | Silent 'w' |
+| Wednesday | Wenz-day | Silent 'd' |
+| February | Feb-ru-ary | Silent 'r' fix |
+
+## 📝 "-ough" Words (Highly Variable)
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| though | thoh | Long 'o' sound |
+| through | thru | Long 'u' sound |
+| thought | thawt | 'aw' sound |
+| bought | bawt | 'aw' sound |
+| brought | brawt | 'aw' sound |
+| fought | fawt | 'aw' sound |
+| ought | awt | 'aw' sound |
+| naught | nawt | 'aw' sound |
+| nought | nawt | 'aw' sound |
+| cough | coff | Short 'o' |
+| trough | troff | Short 'o' |
+| enough | ee-nuf | Short 'u' |
+| rough | ruf | Short 'u' |
+| tough | tuf | Short 'u' |
+| stuff | stuf | Short 'u' |
+| bluff | bluf | Short 'u' |
+| fluff | fluf | Short 'u' |
+| gruff | gruf | Short 'u' |
+| scoff | skoff | Short 'o' |
+| chough | chuf | Bird name |
+| hiccough | hik-up | Same as hiccup |
+| lough | lokh | Irish loch |
+| thorough | thur-oh | Different pattern |
+| borough | bur-oh | Different pattern |
+| sough | suf | Soft 'f' sound |
+
 ## 🌐 Common Mispronounced Words
 | Original Word | Phonetic Replacement | Note |
 | :--- | :--- | :--- |
@@ -259,3 +406,57 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | behaviour | be-hay-vyor | UK spelling variant |
 | travelled | trav-eld | UK spelling variant |
 | cancelled | can-celed | UK spelling variant |
+
+## 📱 Emojis & Special Characters
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| 😀 | grin | Emoji name spoken |
+| 😂 | laugh | Laughing emoji |
+| 👍 | thumbs up | Reaction emoji |
+| ❤️ | heart | Red heart emoji |
+| 🔥 | fire | Fire emoji |
+| 💀 | skull | Skull emoji |
+| 😭 | cry | Crying emoji |
+| 🤔 | think | Thinking emoji |
+| 😎 | cool | Cool face emoji |
+| 🥺 | plead | Pleading eyes |
+| ✅ | check mark | Checkbox emoji |
+| ❌ | cross | X mark emoji |
+| ⚠️ | warning | Warning emoji |
+| ℹ️ | info | Information emoji |
+| 🚀 | rocket | Rocket emoji |
+| 💡 | idea | Light bulb emoji |
+
+## 📞 Phone Numbers & Digits Sequences
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| 07123 456789 | oh seven one two three, four five six seven eight nine | UK mobile format |
+| +44 20 7946 0958 | plus four four, two zero, seven nine four six, oh nine five eight | International UK |
+| (555) 123-4567 | five five five, one two three, four five six seven | US format |
+| 0800 123 456 | oh eight hundred, one two three, four five six | UK freephone |
+| 1-800-555-0199 | one, eight hundred, five five five, oh one nine nine | US toll-free |
+
+## 🌐 IP Addresses & Network
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| 192.168.1.1 | one nine two, dot one six eight, dot one, dot one | Local IP |
+| 10.0.0.1 | ten, dot oh, dot oh, dot one | Private IP |
+| 172.16.0.1 | one seven two, dot sixteen, dot oh, dot one | Private IP |
+| 127.0.0.1 | one two seven, dot oh, dot oh, dot one | localhost |
+| 255.255.255.0 | two five five, dot two five five, dot two five five, dot oh | subnet mask |
+
+## 💳 Account Numbers & IDs
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| 1234 5678 9012 3456 | one two three four, five six seven eight, nine oh one two, three four five six | Credit card |
+| AB12 3CD | A B one two, three C D | UK vehicle reg |
+| SW19 4NG | S W one nine, four N G | UK postcode |
+| E1 6AN | E one, six A N | London postcode |
+
+## 🤖 Bot Names & Handles
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| @username | at user-name | Twitter/chat handle |
+| #hashtag | hash-tag | Social hashtag |
+| _underscore | un-ders-core | Text with underscore |
+| test_user | test un-ders-core | Username format |
