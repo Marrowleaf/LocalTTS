@@ -4,6 +4,19 @@
 
 Piper Pro Voice is a refined implementation of the Piper TTS engine designed specifically for OpenClaw agents. It moves beyond simple "text-to-audio" conversion by introducing a **Pronunciation Layer** and a **Voice Management system** to eliminate robotic artifacts and provide a natural, human-like experience.
 
+## 🎯 The Vision: Breaking the API Barrier
+
+Most high-quality voice assistants rely on expensive cloud APIs (like OpenAI, Google, or ElevenLabs), leading to recurring subscription costs, API usage limits, and privacy concerns.
+
+**Piper Pro Voice was built to change that.** 
+
+The goal was to create a professional-grade voice experience that is **completely free to operate**. By moving synthesis to the local host, we eliminate:
+- **Monthly Subscriptions**: No more "Pro" plans just to get a voice.
+- **Usage Quotas**: Speak as much as you want without hitting a token limit.
+- **Cloud Latency**: Local synthesis means no waiting for a round-trip to a remote server.
+
+By combining local ONNX models with a custom phonetic layer, we achieve "cloud-like" quality without the cloud-like costs.
+
 ## ✨ Why Piper Pro Voice?
 
 Standard TTS often struggles with specific words, blending them together or mispronouncing technical terms. Piper Pro Voice solves this by:
