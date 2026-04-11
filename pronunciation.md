@@ -465,6 +465,14 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | _underscore | un-ders-core | Text with underscore |
 | test_user | test un-ders-core | Username format |
 
+## ⏸️ Punctuation & Special Characters
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| … | period period period | Ellipsis - Piper skips instead of pausing |
+| — | dash | Em dash - Piper often skips instead of pausing |
+| -- | dash dash | Double hyphen fix |
+| ... | period period period | Three dots ellipsis fix |
+
 ## 🎯 Creative Fixes for Names (Based on Piper quirks)
 | Original Word | Phonetic Replacement | Note |
 | :--- | :--- | :--- |
