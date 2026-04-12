@@ -22,6 +22,9 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | Redis | Red-iss | Prevents odd inflection |
 | LLM | L-L-M | Forces acronym spelling |
 | repository | re-poz-i-tory | Naturalizes the "z" sound |
+| WWW | Triple Double U | Fixes "World Wide Web" acronym |
+| HTTP | H-T-T-P | Forces letter spelling |
+| HTTPS | H-T-T-P-S | Forces letter spelling |
 
 ## 📅 Dates & Time
 | Original Word | Phonetic Replacement | Note |
@@ -48,6 +51,14 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | % | per-cent | Ensures symbol is read as word |
 | @ | at | Ensures symbol is read as word |
 | # | hash | Ensures symbol is read as word |
+| V (roman) | five | Fixes roman numeral |
+| VI | six | Roman numeral |
+| VII | seven | Roman numeral |
+| VIII | eight | Roman numeral |
+| IX | nine | Roman numeral |
+| X | ten | Roman numeral |
+| XI | eleven | Roman numeral |
+| XII | twelve | Roman numeral |
 | 1st | first | Forces ordinal pronunciation |
 | 2nd | second | Forces ordinal pronunciation |
 | $ | dollars | Prevents symbol misreading |
@@ -100,6 +111,15 @@ This file maps standard English words to phonetic spellings that the Piper TTS e
 | lol | el-oh-el | Laugh out loud |
 | lmao | el-em-ay-oh | Laughing my ass off |
 | rofl | ro-fl | Rolling on floor laughing |
+
+## ⚔️ Historical & Military Terms
+| Original Word | Phonetic Replacement | Note |
+| :--- | :--- | :--- |
+| World War II | World War two | Fixes "roman 2" issue (GitHub #363) |
+| WWII | World War two | Fixes robotic roman numeral |
+| WW2 | World War two | Alternative abbreviation |
+| World War I | World War one | Consistency fix |
+| WWI | World War one | Alternative abbreviation |
 
 ## 📅 Dates & Numbers (Context-Specific)
 | Pattern | Replacement | Context |
