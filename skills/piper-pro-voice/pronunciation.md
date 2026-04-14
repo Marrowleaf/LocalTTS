@@ -32,6 +32,17 @@
 | Input | Pronounced As | Workaround |
 |-------|----------------|------------|
 | Geis | "gice" (wrong) | "Ghice" |
+| St John | "sinjin" (UK) | Context: Saint vs street | "Saint John" or "Sinjin" |
+| St. Patrick | "sin patrick" | Irish Saint | "Saint Patrick" |
+
+### More Titles to Expand
+| Input | Pronounced As | Should Be |
+|-------|----------------|-----------|
+| Prof. | "professor" (with pause) | "Professor" |
+| Capt. | "captain" (with pause) | "Captain" |
+| Gen. | "general" (with pause) | "General" |
+| Lt. | "lieutenant" (with pause) | "Lieutenant" |
+| Sgt. | "sergeant" (with pause) | "Sergeant" |
 
 ### Years & Dates
 | Input | Pronounced As | Should Be |
@@ -77,6 +88,14 @@ def fix_pronunciation(text):
 - Add model-specific mappings as discovered
 
 ## Additional Issues (from Community Reports)
+
+### Ellipsis and Dashes
+Piper often skips ellipsis ("…") and em-dashes ("—") entirely instead of treating them as pauses. Workaround: replace with period or explicit pause.
+
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| "I just… I just want" | "I just I just want" | Pause between phrases | Replace "…" with "." |
+| "thought—actually" | "thought actually" | Pause for dash | Replace "—" with "." |
 
 ### Decimal Fractions
 Piper may interpret periods at end of sentences as decimal points. Add space after period before numbers: "5. 5" instead of "5.5"
