@@ -118,6 +118,43 @@ Piper may interpret periods at end of sentences as decimal points. Add space aft
 ### Numbers in Context
 When numbers have special meaning (phone numbers, zip codes, years), spell them out phonetically or use word forms.
 
+## URLs, Acronyms & Technical Terms
+
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| www.example.com | "w w w dot example dot com" | "example dot com" | Strip "www." or spell out |
+| https:// | "h t t p s colon slash slash" | "https" | Remove protocol |
+| FBI | "f b i" (letters) | "F B I" or "the FBI" | Spell out as "F B I" |
+| NASA | "n a s a" | "NASA" (nah-sah) | Use "NASA" |
+| CEO | "c e o" | "Chief Executive Officer" | Expand full title |
+| PDF | "p d f" | "P D F" | Spell letter by letter |
+| GIF | "g i f" or "jif" | "JIF" (debated) | Use "JIF" |
+| SQL | "s q l" or "sequel" | "S Q L" | Spell "S Q L" |
+
+### Phone Numbers
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| 555-1234 | "five hundred fifty five one two three four" | "five five five one two three four" | Add dashes, use word form |
+| +44 20 7946 0958 | "plus forty four twenty seven nine four six zero nine five eight" | UK format | Use "plus four four" and spell |
+
+### Hashtags & Social
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| #hashtag | "hashtag" | "hashtag" | Remove # in TTS |
+| @username | "at username" | "username" | Remove @ |
+
+### Technical/Linux Terms
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| sudo | "soo-doo" or "sudo" | "soo-doo" | Already good, but can force |
+| ls | "l s" | "list" | Say "list" |
+| cd | "c d" | "change directory" | Say "change dir" |
+| mkdir | "m k d i r" | "make directory" | Say "make directory" |
+| grep | "g r e p" | "grep" | Already okay |
+| rm | "r m" | "remove" | Say "remove" |
+| chmod | "c h m o d" | "change mode" | Say "change mode" |
+| sudo apt-get | "sue-doo apt get" | "sue-doo apt get" | Keep as-is |
+
 ## Contributing
 
 Add new problematic words here with:
