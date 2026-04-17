@@ -182,6 +182,13 @@ When numbers have special meaning (phone numbers, zip codes, years), spell them 
 | thought—actually | "thought actually" | Pause for dash | Replace "—" with "." |
 | I just… I just want | "I just I just want" | Pause between phrases | Replace "…" with "." |
 
+### Special Characters (GitHub Issue #565)
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| * | "asterisk" | (silence) | Remove or replace with space |
+| **bold** | "asterisk asterisk bold asterisk asterisk" | "bold" | Strip markdown formatting |
+| markdown | varies | varies | Pre-process to remove markdown symbols |
+
 ### More Common Problematic Terms
 | Input | Pronounced As | Should Be | Workaround |
 |-------|----------------|-----------|------------|
