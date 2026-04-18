@@ -260,6 +260,29 @@ Many surnames get mispronounced. Try these patterns:
 | Punctuation not read | Commas, periods not producing pauses in Python API | Use `piper_phonemize` or install patched espeak-ng fork |
 | Voice-dependent punctuation | Some voices were trained without punctuation data | Use expressive voices (e.g., en_US-amy-medium, en_US-libritts-high) |
 
+### Time Formats (from Community Reports)
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| 2:30 | "two thirty" | "half past two" | Pre-process to "half past two" |
+| 10:15 | "ten fifteen" | "quarter past ten" | Pre-process to "quarter past ten" |
+| 2:45 | "two forty-five" | "quarter to three" | Pre-process to "quarter to three" |
+| 1:30 | "one thirty" | "half past one" | Pre-process to "half past one" |
+| 9:00 | "nine o'clock" | "nine o'clock" | Already good in most cases |
+
+*Note:* Piper reads times digit-by-digit or as regular numbers. For natural time announcements, pre-process to spoken phrases.
+
+### Emojis and Special Characters (from Community Reports)
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| 😄 | "blank" or skipped | (silence) | Remove emojis before TTS |
+| 🎉 | "blank" or skipped | (silence) | Remove emojis before TTS |
+| 👋 | "blank" or skipped | (silence) | Remove emojis before TTS |
+| ℹ️ | "information" | (silence) | Remove emoji variation selectors |
+| ™️ | "trademark" | (silence) | Remove before TTS |
+| ✅ | "checkmark" or skipped | (silence) | Remove before TTS |
+
+*Note:* Piper treats emoji as silence or skips them entirely. Strip all emojis from text before TTS processing.
+
 ### General Sound Quality Notes
 - Piper is a neural TTS, but some users report it sounds "flat" or "jumpy" compared to modern cloud TTS
 - This is a model limitation, not fixable via text preprocessing
