@@ -316,6 +316,24 @@ Many surnames get mispronounced. Try these patterns:
 
 ---
 
+## Additional Issues (from GitHub PR #401 - IPA Phoneme Input)
+
+Piper now supports direct IPA phoneme input using double bracket syntax:
+
+| Input | Description | Usage |
+|-------|-------------|-------|
+| [[dʒeɪs]] | Direct IPA phonemes | Use for proper nouns that defy phonetic spelling |
+| [[ˈhaɪˌkəːləf]] | Multi-syllable IPA | Complex words may need IPA |
+
+*Note:* This feature requires building from the `phoneme-in-text` branch or using piper-plus. Check [PR #401](https://github.com/rhasspy/piper/pull/401) for details.
+
+### IPA Phoneme Tips
+- Get IPA for words using: `espeak -q --ipa="word"`
+- For names that won't render correctly, IPA is the most reliable fix
+- Example: "Geis" → IPA-based workaround or "Ghice" (phonetic spelling)
+
+---
+
 ## Contributing
 
 Add new problematic words here with:
