@@ -125,8 +125,15 @@ Piper often skips ellipsis ("…") and em-dashes ("—") entirely instead of tre
 | "I just… I just want" | "I just I just want" | Pause between phrases | Replace "…" with "." |
 | "thought—actually" | "thought actually" | Pause for dash | Replace "—" with "." |
 
-### Decimal Fractions
+### Decimal Fractions & Number-Period concatenation
 Piper may interpret periods at end of sentences as decimal points. Add space after period before numbers: "5. 5" instead of "5.5"
+
+**Number-Period concatenation issue:** When a number is followed by a period (end of sentence), the next word can be mispronounced letter-by-letter. E.g., "12345.Let me check" becomes "12345 dot l e t me check".
+
+| Input | Pronounced As | Should Be | Workaround |
+|-------|----------------|-----------|------------|
+| 12345.Let me check | "one two three four five dot l e t me check" | "12345. Let me check" | Add space: "12345. Let me check" |
+| 99.Yes | "ninety nine dot w y e s" | "99. Yes" | Add space: "99. Yes" |
 
 | Input | Pronounced As | Should Be | Workaround |
 |-------|----------------|-----------|------------|
