@@ -339,6 +339,17 @@ Many surnames get mispronounced. Try these patterns:
 | * | "asterisk" | (silence) | Remove or replace with space |
 | ( ) | "left paren" / "right paren" | Pauses | Use spaces around parentheses |
 
+### Audio Static at End of Sentences (GitHub Issue #156603)
+When text ends with punctuation (. ! ?), audio may end with scratchy static noise.
+
+| Input | Problem | Workaround |
+|-------|---------|------------|
+| "Hello." | Static at end | Remove trailing punctuation: "Hello" |
+| "Hi!" | Static at end | Remove trailing punctuation: "Hi" |
+| "Are you sure?" | Static at end | Try: "Are you sure" |
+
+*Note:* From GitHub Issue #156603 (Nov 2025) - Affects Piper 2.1.1+. The fix is to strip trailing punctuation or add a word after the final punctuation.
+
 ### General Sound Quality Notes
 - Piper is a neural TTS, but some users report it sounds "flat" or "jumpy" compared to modern cloud TTS
 - This is a model limitation, not fixable via text preprocessing
